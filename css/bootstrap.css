@@ -6,7 +6,7 @@
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Days One', sans-serif;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -337,7 +337,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -2247,6 +2247,7 @@ pre code {
   font-size: 1rem;
   line-height: 1.25;
   color: #00237d;
+  outline: none;
   background-color: #fff;
   background-image: none;
   -webkit-background-clip: padding-box;
@@ -2275,6 +2276,7 @@ pre code {
 .form-control::-webkit-input-placeholder {
   color: #00237d;
   opacity: 1;
+  outline: none;
 }
 
 .form-control::-moz-placeholder {
@@ -2711,6 +2713,7 @@ fieldset[disabled] a.btn {
   color: #292b2c;
   background-color: #fff;
   border-color: #ccc;
+  border: 10px; solid transparent;
 }
 
 .btn-secondary:hover {
@@ -2892,6 +2895,7 @@ fieldset[disabled] a.btn {
   background-image: none;
   background-color: transparent;
   border-color: #ccc;
+
 }
 
 .btn-outline-secondary:hover {

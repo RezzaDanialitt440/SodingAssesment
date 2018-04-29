@@ -26,9 +26,23 @@ div{
 	background: #e0f5f8;
 }
 
-form{
+p{
 
 }
-.promoCode :focus{
-    outline: none;
+.butang{
+    line-height: 2.2;
+    margin:-10px 0 -10px 0;
+
+}
+
+form-control{
+
+}
+
+.promoCode{
+  color: #00237d;
+  border: 0;
+  
+
+
 }
