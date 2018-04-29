@@ -3,6 +3,7 @@ button{
 }
 .biru {
 	background: #00237d;
+	
 }
 
 .textBiru {
@@ -23,4 +24,11 @@ div{
 
 .biruMuda {
 	background: #e0f5f8;
+}
+
+form{
+
+}
+.promoCode :focus{
+    outline: none;
 }

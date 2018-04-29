@@ -341,7 +341,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #292b2c;
+  color: #b2b2b2;
   background-color: #fff;
 }
 
@@ -366,7 +366,7 @@ abbr[data-original-title] {
 
 address {
   margin-bottom: 1rem;
-  font-style: normal;
+-style: normal;
   line-height: inherit;
 }
 
@@ -708,7 +708,7 @@ samp {
 code {
   padding: 0.2rem 0.4rem;
   font-size: 90%;
-  color: #bd4147;
+  color: #b2b2b2;
   background-color: #f7f7f9;
   border-radius: 0.25rem;
 }
@@ -762,7 +762,7 @@ pre code {
   padding-left: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 550px) {
   .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -790,7 +790,7 @@ pre code {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 550px) {
   .container {
     width: 540px;
     max-width: 100%;
@@ -2246,7 +2246,7 @@ pre code {
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
   line-height: 1.25;
-  color: #464a4c;
+  color: #00237d;
   background-color: #fff;
   background-image: none;
   -webkit-background-clip: padding-box;
@@ -2266,29 +2266,29 @@ pre code {
 }
 
 .form-control:focus {
-  color: #464a4c;
+  color: #00237d;
   background-color: #fff;
   border-color: #5cb3fd;
   outline: none;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #636c72;
+  color: #00237d;
   opacity: 1;
 }
 
 .form-control::-moz-placeholder {
-  color: #636c72;
+  color: #00237d;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #636c72;
+  color: #00237d;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #636c72;
+  color: #00237d;
   opacity: 1;
 }
 
